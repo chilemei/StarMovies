@@ -1,0 +1,47 @@
+PODS:
+  - BeeHive (1.1.2)
+  - JLRoutes (2.1)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - StarMovies (0.0.1):
+    - BeeHive (~> 1.1.1)
+    - JLRoutes (~> 2.1)
+    - Kingfisher (~> 5.13.3)
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+
+DEPENDENCIES:
+  - StarMovies (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BeeHive
+    - JLRoutes
+    - Kingfisher
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  StarMovies:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeeHive: 671f8448da56472cecebb67bfef4628de7228e8f
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  StarMovies: 1435d0ae5bc593b025b9a82e12f9c579f82324e9
+
+PODFILE CHECKSUM: e23d3bd4b3acc24fa96dd45944efc3583e3d7c85
+
+COCOAPODS: 1.10.0

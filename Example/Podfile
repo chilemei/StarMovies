@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+use_modular_headers!
+
+target 'StarMoviesExample' do
+  project './StarMoviesExample.xcodeproj'
+
+  pod 'StarMovies', :path => '../'
+
+end
