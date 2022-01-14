@@ -13,7 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let window = UIWindow()
-        let rootViewController = UINavigationController(rootViewController: MainViewController())
+        let viewModel = MovieDetailsViewModel(
+            title: "title",
+            posterImage: nil,
+            overview: "overview"
+        )
+        let rootViewController = UINavigationController(rootViewController: MovieDetailsViewController(viewModel: viewModel))
         window.rootViewController = rootViewController
         self.window = window
         self.window?.makeKeyAndVisible()
